@@ -1,0 +1,226 @@
+
+.box-inner {
+    border: 1px solid #CAC7C7;
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+    -webkit-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+    -moz-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    
+}
+.box-content {
+    padding: 10px;
+}
+.sidebar {
+position: fixed;
+top: 51px;
+bottom: 0;
+left: 0;
+z-index: 1000;
+display: block;
+padding: 20px;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: #B7CDAF;
+border-right: 1px solid #eee;
+}
+.custom-body{
+    background-color: #E0F0FF;
+}
+.date-form { margin: 10px; }
+label.control-label span { cursor: pointer; }
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+div.center, p.center, img.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+    display: block;
+    text-align: center;
+}
+.test_div_align{
+     margin-top:20px;
+     margin-left:10px; 
+     float: left;
+     height: 25px;
+     width: 25px; 
+     border:1px solid #000; 
+}
+.test_label_align{
+    height: 40px;
+    width: 50px;
+    margin-left:10px;
+    float: left
+}
+.box {
+  margin-bottom: 50px;  
+    
+}
+.box-header-customized {
+    border: none;
+    padding-top: 5px;
+    border-bottom: 1px solid #DEDEDE;  
+    height: 35px;
+    min-height: 35px !important;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px; 
+    backround: #85D6FF;
+    background-color: rgb(175, 224, 188);
+}
+.box-header-customized h2 {
+    font-size: 15px;
+    width: auto;
+    clear: none;
+    float: left;
+    line-height: 25px;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.btn-purple {
+background-color: #43A663;
+border: 0;
+margin-top: 0;
+font-size: 16px;
+font-weight: 300;
+height: 40px;
+border-radius: 2px;
+padding: 0 24px;
+color: #FFF;
+}
+.btn-purple:hover{
+    color: #FFF;
+    
+}
+.login-header{
+    height:50px; 
+    background-color: #B5E0BA;
+    padding:5x;
+}
+.login-box{
+    top:100px;
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+    -webkit-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+    -moz-box-shadow: 0 0 10px rgba(189, 189, 189, 0.4);
+}
+.login-inner-box{
+    background-color: #fff;
+}
+.login-box a{
+    font-size: 0.9em;
+}
+.logincol-padding{
+    padding: 0;
+}
+.logincol-margin{
+    margin-top:30px;
+}
+.mainpage{
+    margin-top: 80px;
+    padding: 0px;
+}
+.error-container {
+   border: 1px solid #fbc2c4;
+   background-color: rgb(251, 227, 228);
+   color: #8a1f11;
+   font: normal;
+   font-size: 0.8em;
+   padding: 0.8em;
+}
+.nav-chil-pills.active {
+  color: #fff;
+  background-color: #FFF;
+}
+.textArea{
+  resize:none;
+}
+.box-inner-customized{
+    margin-bottom: 50px;
+}
+.nav-custom{
+    background-color: #78C1E6;
+}
+.nav-footer{
+    background-color:#78C1E6;
+    height:30px;
+}
+.footer-brand{
+    padding: 3px;
+}
+.footer{
+    height:25px; 
+    background-color: #78C1E6;
+    padding:10px;
+}
+// Session test part
+.session-content{
+    
+    padding: 10px;
+}
+.sessionbtn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;  
+    border: 1px solid transparent;
+    background-color: #fff;
+    width: 70%;
+    //border-radius: 4px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.error_err{
+    border: 1px solid red;
+}
+.success_suc{
+    border: 1px solid green;
+}
